@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import screen
 import dht
 import time
