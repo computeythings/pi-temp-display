@@ -1,0 +1,11 @@
+[Unit]
+Description=Ambient Room Temperature I2C Display
+After=multi-user.target
+
+[Service]
+Restart=always
+RestartSec=30s
+ExecStart=/usr/local/share/scripts/display/display.py
+
+[Install]
+WantedBy=multi-user.target
